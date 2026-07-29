@@ -47,3 +47,20 @@ let student: studentType = {
   email: "shaharia@example.com",
 };
 console.log(student);
+
+type firstType = {
+  name: string;
+};
+
+type secondType = {
+  phone: number;
+};
+
+type combinedType = firstType & secondType;
+
+let combined: combinedType = {
+  name: "shaharia",
+  phone: 1234567890,
+};
+
+console.log("combined : ", combined);
