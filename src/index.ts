@@ -80,3 +80,26 @@ let multiTypeArray: (string | number)[] = [
 console.log("numArray : ", numArray);
 console.log("strArray : ", strArray);
 console.log("multiTypeArray : ", multiTypeArray);
+
+// tuple type
+
+let article: [number, string, boolean];
+article = [1, "typescript", true];
+
+const [id, title, isPublished] = article;
+console.log("id : ", id);
+console.log("title : ", title);
+console.log("isPublished : ", isPublished);
+
+enum Days {
+  Monday,
+  Tuesday,
+  Wednesday,
+  Thursday,
+  Friday,
+  Saturday,
+  Sunday,
+}
+
+const day: Days = Days.Monday;
+console.log("day : ", Days[day]);
