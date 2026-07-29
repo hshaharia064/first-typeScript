@@ -64,3 +64,19 @@ let combined: combinedType = {
 };
 
 console.log("combined : ", combined);
+
+// type annotations
+
+let numArray: number[] = [1, 2, 3, 4, 5, 6];
+let strArray: string[] = ["shaharia", "developer", "typescript"];
+let multiTypeArray: (string | number)[] = [
+  1,
+  "shaharia",
+  2,
+  "developer",
+  3,
+  "typescript",
+];
+console.log("numArray : ", numArray);
+console.log("strArray : ", strArray);
+console.log("multiTypeArray : ", multiTypeArray);
