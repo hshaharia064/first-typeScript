@@ -1,0 +1,49 @@
+# ==========================
+# Dependencies
+# ==========================
+node_modules/
+
+# ==========================
+# Compiled JavaScript output
+# ==========================
+dist/
+
+# ==========================
+# Logs
+# ==========================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==========================
+# Environment variables
+# ==========================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ==========================
+# TypeScript build info
+# ==========================
+*.tsbuildinfo
+
+# ==========================
+# VS Code
+# ==========================
+.vscode/
+
+# Keep workspace settings if you want to share them
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# ==========================
+# OS files
+# ==========================
+.DS_Store
+Thumbs.db
